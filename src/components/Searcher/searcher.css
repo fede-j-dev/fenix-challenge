@@ -1,0 +1,33 @@
+.searcher-container {
+  position: relative;
+  height: 100px;
+  z-index: 30;
+}
+
+.searcher-container .input-button-wrapper {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  position: relative;
+}
+.input-button-wrapper input {
+  width: 400px;
+  height: 100%;
+  padding-left: 30px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+.input-button-wrapper .button-container {
+  position: absolute;
+  left: 430px;
+}
+
+.searcher-container ul {
+  margin-top: 3px;
+  width: 400px;
+  height: 400px;
+  overflow-y: auto;
+  scroll-padding-bottom: 0;
+  position: absolute;
+  left: 15px;
+}

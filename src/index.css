@@ -1,13 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100%;
+}
+.App {
+  width: 100%;
+  height: 100%;
+  background-color: #fafafa;
+  padding: 20px 40px;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/*--------------- My movies------------ */
+@import url("./components/MyMovies/myMovies.css");
+
+/*--------------- Searcher------------ */
+@import url("./components/Searcher/searcher.css");
+
+/*--------------- Search detail------------ */
+@import url("./components/SearchDetail/searchDetail.css");
+
+/*--------------- Movie Detail------------ */
+@import url("./components/MovieDetail/movieDetail.css");
+
+/*--------------- Button------------ */
+@import url("./components/utils/button.css");

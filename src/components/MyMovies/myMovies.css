@@ -1,0 +1,47 @@
+.mymovies-container {
+  background-color: #ffffff;
+  padding: 40px;
+  min-height: 80vh;
+}
+.mymovies-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.filter-container input {
+  height: 30px;
+  width: 300px;
+  padding-left: 10px;
+}
+.watched-unwatched {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+.unwatched,
+.watched {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+.unwatched {
+  margin-right: 30px;
+}
+
+.unwatched-movies-wrapper,
+.watched-movies-wrapper {
+  padding: 30px;
+}
+hr {
+  border-color: #699db6;
+}
+.img-info-wrapper {
+  margin-top: 10px;
+  display: flex;
+}
+
+.img-info-wrapper img {
+  width: 150px;
+}
